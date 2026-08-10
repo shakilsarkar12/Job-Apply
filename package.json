@@ -1,0 +1,20 @@
+{
+  "name": "job-apply-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0"
+  }
+}
